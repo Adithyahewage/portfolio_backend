@@ -5,6 +5,6 @@ const blogSchema = new mongoose.Schema({ //describe about project schema
     content: String,
 });
 
-const Blog = mongoose.model('blogs', blogSchema);
+const Blog = mongoose.model('Blog', blogSchema);
 
 module.exports = Blog;
